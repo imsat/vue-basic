@@ -75,13 +75,13 @@ const mutations = {
 }
 
 const actions = {
-    LOGIN({commit, dispatch}){
+    LOGIN({commit, dispatch, state}){
         commit('TOGGLE_LOADING');
         // rootState.loading.isLoading = true;
         // rootState.error.errors = [];
         var data = {
             client_id: 2,
-            client_secret: 'QMK21iB0nwUeC2C1OeEU16cqo8MKyDM0mh4OG1oH',
+            client_secret: 'NMpeUoOZBycoKVFntXOMt13XnUPVtsj4RgOVPwXS',
             grant_type: 'password',
             username: state.login_form.email,
             password: state.login_form.password

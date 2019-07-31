@@ -17,11 +17,13 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" rel="stylesheet">
+
 </head>
 <body>
 <div id="app">
 
-    <main>
+    <main class="">
         <app></app>
     </main>
 </div>
